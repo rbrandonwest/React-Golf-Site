@@ -1,0 +1,30 @@
+{
+  "name": "ReactGolf",
+  "version": "1.0.0",
+  "description": "ReactJS Hello World Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline",
+    "build": "webpack",
+    "watch": "webpack -d --watch",
+    "serve": "serve ./public"
+  },
+  "keywords": [],
+  "author": "Ray West",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "react": "^0.14.9",
+    "react-bootstrap": "^0.30.5",
+    "react-dom": "^0.14.9",
+    "react-router-dom": "^4.3.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "serve": "^8.1.2",
+    "webpack": "^1.15.0"
+  }
+}
